@@ -1,0 +1,47 @@
+/* AlertsList.css */
+.alert-item {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.alert-item:hover {
+  transform: scale(1.05);
+}
+
+.alert-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.server-id {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+.alert-note {
+  font-size: 14px;
+  display: none;
+  margin-top: 10px;
+}
+
+.alert-item:hover .alert-note {
+  display: block;
+}
+
+/* Colors for different alert types */
+.red {
+  background-color: #ff4d4d; /* Critical: Red */
+}
+
+.orange {
+  background-color: #ff7f00; /* Medium: Orange */
+}
+
+.green {
+  background-color: #28a745; /* Low: Green */
+}

@@ -1,0 +1,39 @@
+/* ServerList.css */
+.server-list table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .server-list th, .server-list td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .server-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .server-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .green-dot {
+    background-color: #28a745; /* Green for active */
+  }
+  
+  .red-dot {
+    background-color: #dc3545; /* Red for down */
+  }
+  
+  .grey-dot {
+    background-color: #6c757d; /* Grey for unknown or inactive status */
+  }
+  
