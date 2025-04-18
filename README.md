@@ -16,7 +16,7 @@ A fullstack monitoring dashboard built with **Django** and **React** to visualiz
 
 ```bash
 cd frontend
-run npm install
+run npm preinstall
 npm run dev                  # Runs both frontend & backend concurrently after installing python and node dependencies
 ```
 
