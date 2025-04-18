@@ -3,6 +3,17 @@
 A fullstack monitoring dashboard built with **Django** and **React** to visualize server metrics, track statuses, and display real-time alerts.
 
 ---
+## Deployed Website
+
+You can view the live version of the website by following the link below:
+
+[CodeSpaces Link](https://scaling-bassoon-5gqg6q7569g42pxvj-3000.app.github.dev/)
+[Render Link](https://server-monitoring-app.onrender.com/)
+
+### Important Note:
+Please **disable ad blockers** for the website to function correctly. Preferably use Google Chrome.
+
+---
 
 ## 🔧 Tech Stack
 
