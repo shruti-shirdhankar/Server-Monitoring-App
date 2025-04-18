@@ -79,13 +79,14 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'monitoring',
-        'USER': 'postgres',
-        'PASSWORD': 'Shruti24!',
-        'HOST': 'localhost',
-        'PORT': '5432'
+        'NAME': 'monitoring_5iok',
+        'USER': 'monitoring_5iok_user',
+        'PASSWORD': 'm4vSDnRDf0UDyHn2iTK80iU3yNcc9zif',
+        'HOST': 'dpg-d00sn5k9c44c73clg0c0-a.singapore-postgres.render.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Password validation
